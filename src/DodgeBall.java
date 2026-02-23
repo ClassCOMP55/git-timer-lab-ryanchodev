@@ -68,7 +68,7 @@ public class DodgeBall extends GraphicsProgram implements ActionListener {
 		moveAllEnemiesOnce();
 		checkCollisions();
 
-		// Check if MAX_ENEMIES exceeded
+		// Check if MAX_ENEMIES exceeded.
 		if (enemies.size() > MAX_ENEMIES) {
 			movement.stop();
 			removeAll();
